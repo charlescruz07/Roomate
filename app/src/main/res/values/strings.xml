@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Roomate</string>
+    <string name="message">Message</string>
+    <string name="profile">Profile</string>
+    <string name="notification">Notification</string>
+    <string name="home">Home</string>
+    <string name="action_settings">Something</string>
+    <string name="title_activity_main_screen">MainScreen</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="homeLabel">Home</string>
+    <string name="your_matches">Your Matches</string>
+    <string name="related_to_your_preference">Related to your preference</string>
+    <string name="connect">Connect</string>
+    <string name="share">Share</string>
+</resources>

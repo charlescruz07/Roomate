@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="225dp"
+        app:cardCornerRadius="2dp"
+        android:elevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/homeImg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:src="@drawable/kamran1"
+                android:scaleType="centerCrop"
+                android:alpha="0.8"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_star_1"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"/>
+
+            <RelativeLayout
+                android:id="@+id/rel"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:id="@+id/connectBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:text="@string/connect"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/shareBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:layout_alignParentEnd="true"
+                    android:text="@string/share"
+                    android:textStyle="bold"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/homeRateTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/rel"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="25dp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:text="Approx. Budget \n PHP 100 per day"
+                />
+
+            <TextView
+                android:id="@+id/homeNameTxt"
+                android:text="Regs Isabelo"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:layout_above="@+id/homeRateTxt"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
